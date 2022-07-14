@@ -1,0 +1,20 @@
+<canvas
+  id="canvas"
+  (mousedown)="startPosition($event)"
+  (mouseup)="finishedPosition()"
+  (mousemove)="draw($event)"
+  (mouseleave)="finishedPosition()"
+  #myCanvas
+></canvas>
+
+<div class="tools">
+  <div class="tool">
+    <button (click)="activatePencil()">Kalem</button>
+  </div>
+  <div class="tool">
+    <button (click)="activateEraser()">Silgi</button>
+  </div>
+  <div class="tool">
+    <button>Renk</button>
+  </div>
+</div>

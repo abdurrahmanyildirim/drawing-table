@@ -1,0 +1,13 @@
+#canvas {
+  /* border: 1px solid black; */
+  display: block;
+  box-sizing: border-box;
+  cursor: url("../assets/pencil.png"), auto;
+}
+
+.tools {
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+}
